@@ -19,3 +19,105 @@
   font-optical-sizing: auto;
   font-weight: 400;
 }
+
+
+.bannar-text{
+  max-width: 888px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .navf{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bannar-text {
+  display: flex;
+  flex-direction: column;
+  }
+  .bannar-textOrder1 {
+    order: 1;
+    margin-bottom: 40px;
+  }
+  .bannar-textOrder2 {
+    order: 2;
+    font-size: 24px;
+  }
+  .bannar-texth1 {
+    font-size: 24px;
+  }
+  .bannar-textp {
+    font-size: 16px;
+  }
+  .plant-margin {
+    margin-top: 130px;
+  }
+  .plant-section{
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .bannar-text-loverSection {
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 30px;
+    gap: 5px;
+    content: full-width;
+  }
+  .bannar-text-loverSectionHeader {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .latest-deals {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .picHeight {
+    min-height: 184px;
+  }
+  .footersection{
+
+    min-width: 1px;
+
+  } 
+
+ 
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0%;
+    gap: 5px;
+
+  }
+
+  .marginLogo{
+    margin-left: 20px;
+  
+    margin-bottom: 20px;
+  }
+
+  .footertext{
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  .footerlogo{
+    margin-top: 30px;
+  }
+
+  .plant-size{
+    min-width: 100px;
+  }
+  
+
+}
