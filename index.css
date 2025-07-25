@@ -20,19 +20,13 @@
   font-weight: 400;
 }
 
-.text-bright {
- opacity: ;
-}
 
 
 
 
 @media screen and (max-width: 640px) {
 
-  .bannar-text{
-  max-width: 888px;
-  margin: 0px auto;
-}
+
   .container {
     max-width: 100%;
     padding: 0 20px;
