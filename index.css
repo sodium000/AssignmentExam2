@@ -4,3 +4,18 @@
     max-width: 1140px;
     margin: 20px auto;
 }
+
+.text-color{
+     font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #E95A08;
+}
+
+
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
